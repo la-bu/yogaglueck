@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Astroplate",
+    "title": "Yogaglueck",
     "base_url": "https://astroplate.netlify.app",
     "base_path": "/",
     "trailing_slash": false,
@@ -9,14 +9,14 @@
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
     "logo_height": "30",
-    "logo_text": "Astroplate"
+    "logo_text": "Yogaglueck"
   },
 
   "settings": {
     "search": true,
     "sticky_header": true,
     "theme_switcher": true,
-    "default_theme": "system",
+    "default_theme": "light",
     "pagination": 2,
     "summary_length": 200,
     "blog_folder": "blog"
@@ -28,7 +28,7 @@
   },
 
   "navigation_button": {
-    "enable": true,
+    "enable": false,
     "label": "Get Started",
     "link": "https://github.com/zeon-studio/astroplate"
   },

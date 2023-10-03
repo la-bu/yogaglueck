@@ -1,7 +1,7 @@
 ---
 enable: true
-title: "Was meine Schüler zu meinen Kursen sagen"
-description: "Überzeuge dich selbst wie ich mit meinen Yoga-Kursen bereits vielen menschen weiterhelfen konnte!"
+title: "What Users Are Saying About Astroplate"
+description: "Don't just take our word for it - hear from some of our satisfied users!  Check out some of our testimonials below to see what others are saying about Astroplate."
 
 # Testimonials
 testimonials:
