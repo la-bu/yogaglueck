@@ -6,5 +6,5 @@ description: "Erlebe die Kraft des Yoga mit mir. Entdecke eine tiefgehende Praxi
 button:
   enable: true
   label: "Finde einen passenden Kurs"
-  link: "https://github.com/zeon-studio/astroplate"
+  link: "/kurse"
 ---

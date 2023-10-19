@@ -6,18 +6,14 @@
     },
     {
       "name": "Über Mich",
-      "url": "/404"
+      "url": "/ueber_mich"
     },
     {
       "name": "Kurse",
-      "url": "/404"
+      "url": "/kurse"
     }
   ],
   "footer": [
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
     {
       "name": "Privacy Policy",
       "url": "/privacy-policy"

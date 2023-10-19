@@ -6,6 +6,11 @@ export type Feature = {
   title: string;
 };
 
+export type Question = {
+  question: string;
+  answer: string;
+};
+
 export type Button = {
   enable: boolean;
   label: string;

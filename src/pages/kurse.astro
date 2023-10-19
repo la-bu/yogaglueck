@@ -1,0 +1,34 @@
+---
+import Base from "@/layouts/Base.astro";
+import Accordion from "@/shortcodes/Accordion";
+import type { Feature, Question } from "@/types";
+import { getEntryBySlug } from "astro:content";
+
+interface Courses {
+  questions: Question[];
+}
+
+const courses = await getEntryBySlug("courses", "-index");
+const { questions }: Courses = courses.data;
+---
+
+<Base>
+    {
+      <section class={`section-sm`}>
+        <div class="container">
+          <div class="row items-center justify-between">
+            <div>
+                {questions.map((faq: Question) => (
+                    <Accordion client:load title={faq.question}>{faq.answer}</Accordion>
+                    ))
+                }
+            </div>
+            <div class={`md:col-7 lg:col-6 `}>
+              {/* <p set:html={markdownify(feature.content)} class="mb-8 text-lg" /> */}
+            </div>
+          </div>
+        </div>
+      </section>
+    }
+</Base>
+---
